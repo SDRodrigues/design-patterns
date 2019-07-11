@@ -1,4 +1,4 @@
-package ChainOfResonsibility;
+package chain;
 
 public class Diretor extends TomarDecisao {
     @Override

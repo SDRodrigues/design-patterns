@@ -1,4 +1,4 @@
-package ChainOfResonsibility;
+package chain;
 
 public class Compra {
     private float valorDaCompra;
