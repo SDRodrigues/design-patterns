@@ -1,6 +1,6 @@
 package builder;
 
-public abstract class FishBuilder extends SanduicheBuilder {
+public class FishBuilder extends SanduicheBuilder {
     private Sanduiche sanduiche = new FishBurguer();
 
     public void abrePao(){
@@ -11,7 +11,7 @@ public abstract class FishBuilder extends SanduicheBuilder {
         System.out.println("Insere os ingredientes");
     }
 
-    public void fecharPao(){
+    public void fechaPao(){
         System.out.println("Fecha pão de hamburguer");
     }
 
